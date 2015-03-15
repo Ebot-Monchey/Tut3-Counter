@@ -9,7 +9,7 @@
 		int value;		// The value of the counter
 	public:
 		UpDownCounter();
-		UpDownCounter(int maxV, int minV, int incr, int decr);
+		UpDownCounter(int minV, int maxV, int incr, int decr);
 		int getValue();
 		void operator++();
 		void operator++(int dummy);
