@@ -4,6 +4,7 @@ private:
 	int minV;		// The minimum value that the counter can hold
 	int incr;		// The step of the increment
 	int decr;		// The step of the decrement
+	int value;		// The value of the counter
 public:
 	UpDownCounter();
 	UpDownCounter(int maxV, int minV, int incr, int decr);
